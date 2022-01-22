@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "improved-cmdblock-gui",
+  "version": "${version}",
+  "name": "ImprovedCmdBlockGui",
+  "description": "",
+  "authors": [
+    "Kamesuta"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/improved-cmdblock-gui/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "improved-cmdblock-gui.mixins.json"
+  ],
+  "accessWidener" : "improved-cmdblock-gui.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}

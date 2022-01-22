@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.kamesuta.improvedcmdblockgui.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "AbstractCommandBlockScreenMixin",
+    "CommandSuggestorMixin",
+    "CreateWorldScreenMixin",
+    "ScreenMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
