@@ -3,7 +3,7 @@ package com.kamesuta.improvedcmdblockgui.mixin;
 import com.kamesuta.improvedcmdblockgui.client.OffsetCalculator;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.screen.ingame.AbstractCommandBlockScreen;
-import net.minecraft.client.gui.widget.CyclingButtonWidget;
+import net.minecraft.client.gui.widget.ButtonWidget;
 import net.minecraft.client.gui.widget.TextFieldWidget;
 import net.minecraft.text.Text;
 import org.spongepowered.asm.mixin.Mixin;
@@ -21,7 +21,7 @@ public class AbstractCommandBlockScreenMixin extends Screen {
     @Shadow
     protected TextFieldWidget previousOutputTextField;
     @Shadow
-    protected CyclingButtonWidget<Boolean> toggleTrackingOutputButton;
+    protected ButtonWidget toggleTrackingOutputButton;
 
     protected AbstractCommandBlockScreenMixin(Text title) {
         super(title);
